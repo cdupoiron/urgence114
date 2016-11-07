@@ -9,10 +9,6 @@ server.listen(port, function () {
     console.log('Server listening at port %d', port);
 });
 
-app.get('/', function(req, res){
-    res.sendfile('public/index.html');
-});
-
 // Routing
 app.use(express.static(__dirname + '/public'));
 

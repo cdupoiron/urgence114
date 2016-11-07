@@ -34,7 +34,7 @@ electronify({
 
     // url finished loading
   },
-  showDevTools: true,
+  showDevTools: false,
   healthCheck: healthCheck
 }).on('child-started', function(child) {
   // child process has started
