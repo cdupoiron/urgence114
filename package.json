@@ -1,0 +1,11 @@
+{
+  "name": "urgence114",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "electronify-server": "^0.5.1",
+    "express": "^4.14.0",
+    "node-static": "^0.7.7",
+    "socket.io": "^1.5.1"
+  }
+}
